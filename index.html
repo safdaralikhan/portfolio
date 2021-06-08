@@ -1,0 +1,368 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <!-- Including the bootstrap CDN -->
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js"
+        integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+        integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <!-- Font Awesome CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+</head>
+
+
+<style>
+    body h1 {
+        font-family: 'Permanent Marker', cursive;
+        text-shadow: 0.5px 0.5px red;
+    }
+
+    .size a img {
+
+        width: 40px;
+        height: 40px;
+        margin: 10px;
+    }
+
+    .text li a {
+        color: white;
+
+    }
+
+    .mycard {
+        opacity: 0;
+
+    }
+
+    .mybody:hover .mycard {
+        opacity: 1;
+        transition: 1s ease-in-out;
+
+
+    }
+  
+</style>
+</head>
+
+<body>
+
+    <!-- Creating a navigation bar using the
+         .navbar class of bootstrap -->
+
+    <nav class="navbar navbar-expand-lg navbar-light  bg-danger">
+        <div class="container-fluid">
+            <a class="navbar-brand  text-white" href="#">PORTFOLIO</a>
+            <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse  " id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto text-sm-right ">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Contact Us</a>
+                    </li>
+
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- NAVBAR END -->
+
+    <!-- TOP experience -->
+    <div class="container">
+        <h4 class="text-center mt-5 ">HI, i m Safdar!</h4>
+
+        <h1 class="text-center mt-3 animate__animated animate__heartBeat "> <b> Building digital <br> products, brands,
+                <br>and experience </b></h1>
+        <p class="text-center mt-3">Lorem Ipsum is simply dummy text of the printing and typesetting industry. <br>
+            Lorem Ipsum has been the
+            industry's standard dummy text.</p>
+        <div class="text-center">
+            <a href="#" class="btn btn-danger" role="button" data-bs-toggle="button">CONNECT WITH ME</a>
+
+        </div>
+    </div>
+    <!-- TOP END -->
+    <br>
+    <br>
+
+
+     <!-- Card -->
+
+      <div class="container 
+     align-items-center 
+     justify-content-center ">
+        <h1 class="text-center mt-5 size animate__animated animate__heartBeat"><b> WORK</b></h1>
+
+       
+        <div class="row w-100 p-0 w-0">
+            <div class="col-lg-4 mb-2  mybody">
+                <div class="bg-image card mx-auto card shadow-1-strong"
+                    style="background-image: url(img/close-up-image-programer-working-his-desk-office_1098-18707.jpg); background-size: cover;">
+                    <div class="card-body text-white  text-center mycard">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.
+                        </p>
+                        <a href="#!" class="btn btn-outline-danger">Button</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-2   mybody">
+                <div class="bg-image card mx-auto shadow-1-strong"
+                    style="background-image: url(img/website-development-banner_33099-1687.jpg); background-size: cover;">
+                    <div class="card-body text-white text-center mycard">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text ">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.
+                        </p>
+                        <a href="#!" class="btn btn-outline-danger  ">Button</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-2  mybody">
+                <div class="bg-image mx-auto card shadow-1-strong"
+                    style="background-image: url(img/Website-img.jpg);background-size: cover;">
+                    <div class="card-body text-white  text-center mycard">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.
+                        </p>
+                        <a href="#!" class="btn btn-outline-danger">Button</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row w-100 p-0 w-0 ">
+            <div class="col-lg-4 mb-2 mybody">
+                <div class="bg-image mx-auto card shadow-1-strong"
+                    style="background-image: url('img/programming-code-made-with-binary-code-coding-hacker-background-digital-binary-data-streaming-digital-code_127544-778.jpg'); background-size: cover;">
+                    <div class="card-body text-white  text-center mycard">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.
+                        </p>
+                        <a href="#!" class="btn btn-outline-danger">Button</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-2  mybody">
+                <div class="bg-image mx-auto card shadow-1-strong"
+                    style="background-image: url('img/innovation-technology-business-finance-background_31965-2378.jpg'); background-size: cover">
+                    <div class="card-body text-white  text-center mycard">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.
+                        </p>
+                        <a href="#!" class="btn btn-outline-danger">Button</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 mb-2  mybody">
+                <div class="bg-image mx-auto card shadow-1-strong"
+                    style="background-image: url('img/th.jpg');background-size: cover;">
+                    <div class="card-body text-white  text-center mycard">
+                        <h5 class="card-title">Card title</h5>
+                        <p class="card-text">
+                            Some quick example text to build on the card title and make up the bulk of the
+                            card's content.
+                        </p>
+                        <a href="#!" class="btn btn-outline-danger">Button</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+       
+    </div> 
+
+     <!-- Card -->
+
+
+
+
+    
+
+    <!-- WORK PLACE -->
+
+    <div class="container ">
+        <h1 class="mt-5 animate__animated animate__heartBeat"><b> About Me </b></h1>
+        <div class="row ">
+            <div class="col-md-8">
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+                    industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type
+                    and
+                    scrambled it to make a type specimen book. It has survived not only five centuries, but also the
+                    leap into
+                    electronic typesetting, remaining essentially unchanged. </p>
+
+                <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and
+                    more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                    Ipsum. </p>
+
+                <p> It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages,
+                    and
+                    more recently with desktop publishing software like Aldus PageMaker including versions of Lorem
+                    Ipsum. Lorem
+                    Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="col-md-4 text-right ">
+                <img class="img-fluid" src="img/IMG-20170817-WA0043.jpg" alt="">
+            </div>
+        </div>
+
+
+
+
+    </div>
+
+    <!-- WORK PLACE WND -->
+
+    <!-- SKILLLS -->
+    <div class="container">
+        <h1 class="text-center mt-5 animate__animated animate__heartBeat"> <b> SKILLS</b></h1>
+        <div class="row">
+            <div class="col-md-4 mt-4 text-center mb-2">
+                <img height="60px" width="60px"
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDMxMi41NTMgMzEyLjU1MyIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+CjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0iTTMwMi41NTMsMEgxMEM0LjQ3NywwLDAsNC40NzgsMCwxMHYyOTIuNTUzYzAsNS41MjIsNC40NzcsMTAsMTAsMTBoMjkyLjU1M2M1LjUyMywwLDEwLTQuNDc4LDEwLTEwVjEwICBDMzEyLjU1Myw0LjQ3OCwzMDguMDc2LDAsMzAyLjU1MywweiBNMTQzLjYyNSwxNzMuNzMyYzAsMTguNjE1LTEwLjQzNCwzMC4xNzktMjcuMjMyLDMwLjE3OWMtMTAuNTUsMC0xOS45NzgtNS4yOTItMjYuNTQ3LTE0LjkwMSAgYy0yLjkwNS00LjI1MS0xLjgxNS0xMC4wNTMsMi40MzYtMTIuOTU5YzQuMjUyLTIuOTA2LDEwLjA1NS0xLjgxNCwxMi45NTksMi40MzZjMy4wNzQsNC40OTgsNi44MjYsNi43NzgsMTEuMTUyLDYuNzc4ICBjMy40MTksMCw4LjU4NiwwLDguNTg2LTExLjUzMnYtNDcuNDY3SDk5LjUwNGMtNS4xNDksMC05LjMyMy00LjE3NC05LjMyMy05LjMyM2MwLTUuMTQ5LDQuMTc0LTkuMzIzLDkuMzIzLTkuMzIzaDM0Ljc5OCAgYzUuMTQ5LDAsOS4zMjMsNC4xNzQsOS4zMjMsOS4zMjNWMTczLjczMnogTTE4OS40NDEsMjA1LjZjLTEyLjQ5OSwwLTI1LjI1MS01LjI3LTMzLjI3OS0xMy43NTMgIGMtMy41NC0zLjc0LTMuMzc3LTkuNjQyLDAuMzYyLTEzLjE4MWMzLjc0MS0zLjU0LDkuNjQ0LTMuMzc3LDEzLjE4MSwwLjM2MmM0LjQ4Niw0Ljc0LDEyLjQxNyw3LjkyNSwxOS43MzYsNy45MjUgIGM3LjQ5MywwLDE2LjI0NC0yLjE4OCwxNi4yNDQtOC4zNTFjMC4wNDgtNS44MS0zLjA0NS03Ljk4Ni0xNy40MTUtMTIuMzM5Yy0xMi42NzctMy44MzktMzEuODM1LTkuNjQyLTMxLjgzNS0zMS43MjUgIGMwLTE2LjUsMTQuMzA2LTI3LjU4NiwzNS41OTktMjcuNTg2YzkuNDc5LDAsMTkuODE1LDIuODc0LDI2Ljk3NSw3LjUwMmM0LjMyNCwyLjc5NSw1LjU2NCw4LjU2NywyLjc2OSwxMi44OTIgIGMtMi43OTYsNC4zMjQtOC41NjgsNS41NjQtMTIuODkyLDIuNzY5Yy00LjExMi0yLjY1OC0xMS4wNDItNC41MTYtMTYuODUyLTQuNTE2Yy03LjgyLDAtMTYuOTUyLDIuMzQyLTE2Ljk1Miw4LjkzOSAgYzAsNy4xNjUsNC4xODksOS41MTYsMTguNTk0LDEzLjg3OWMxMi4yNzcsMy43MTgsMzAuODMsOS4zMzcsMzAuNjU2LDMwLjI2MkMyMjQuMzMxLDE5NC43NSwyMTAuMzEsMjA1LjYsMTg5LjQ0MSwyMDUuNnoiIGZpbGw9IiNmMTI3MjciIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==" />
+
+                <p class="text-center"><small> Lorem Ipsum is simply dummy text of the printing and typesetting
+                        industry. Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,</small></p>
+
+
+            </div>
+            <div class="col-md-4 mt-4 text-center ">
+                <img height="60px" width="60px"
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8cG9seWdvbiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSIiIHBvaW50cz0iMzIsMCA3Mi44LDQ2MC44IDI1Niw1MTIgNDM5LjEzNiw0NjAuODMyIDQ4MCwwICIgZmlsbD0iI2VkNDAyNiIgZGF0YS1vcmlnaW5hbD0iI2ZmNTcyMiIgY2xhc3M9IiI+PC9wb2x5Z29uPgo8cG9seWdvbiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSIiIHBvaW50cz0iMzkxLjUyLDE1MC42ODggMjU2LDE1MC42ODggMTc2LjgsMTUwLjY4OCAxODEuOTIsMjA4LjU3NiAyNTYsMjA4LjU3NiAzODYuNCwyMDguNTc2ICAgMzcxLjAwOCwzODIuMTQ0IDI1Niw0MTQuMjQgMjU1LjkwNCw0MTQuMjcyIDE0MC45NiwzODIuMTQ0IDEzMi45MjgsMjkxLjM2IDE4OS4yNDgsMjkxLjM2IDE5My40NCwzMzguNDY0IDI1NS45MzYsMzU1LjQ1NiAgIDI1NiwzNTUuNDI0IDI1NiwzNTUuNDI0IDMxOC41NiwzMzguNDMyIDMyNS4wODgsMjY1LjEyIDI1NiwyNjUuMTIgMjU2LDI2NS4xMiAxMzAuNjI0LDI2NS4xMiAxMTUuNDU2LDk0LjIwOCAyNTYsOTQuMjA4ICAgMzk2LjUxMiw5NC4yMDggIiBmaWxsPSIjZmFmYWZhIiBkYXRhLW9yaWdpbmFsPSIjZmFmYWZhIj48L3BvbHlnb24+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjwvZz48L3N2Zz4=" />
+                <small>
+                    <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,</p>
+                </small>
+
+
+
+
+            </div>
+            <div class="col-md-4 mt-4 text-center">
+                <img height="60px" width="60px"
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDM2OCAzNjgiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTM0NCA4aC0zMjBjLTguODAwNzgxIDAtMTYgNy4xOTkyMTktMTYgMTZ2MzIwYzAgOC44MDA3ODEgNy4xOTkyMTkgMTYgMTYgMTZoMzIwYzguODAwNzgxIDAgMTYtNy4xOTkyMTkgMTYtMTZ2LTMyMGMwLTguODAwNzgxLTcuMTk5MjE5LTE2LTE2LTE2em0wIDAiIGZpbGw9IiNmZDM2MzYiIGRhdGEtb3JpZ2luYWw9IiNjY2U0ZmYiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD48ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGZpbGw9IiMwMDdhZmYiPjxwYXRoIGQ9Im0zNDQgMGgtMzIwYy0xMy4yMzA0NjkgMC0yNCAxMC43Njk1MzEtMjQgMjR2MzIwYzAgMTMuMjMwNDY5IDEwLjc2OTUzMSAyNCAyNCAyNGgzMjBjMTMuMjMwNDY5IDAgMjQtMTAuNzY5NTMxIDI0LTI0di0zMjBjMC0xMy4yMzA0NjktMTAuNzY5NTMxLTI0LTI0LTI0em04IDM0NGMwIDQuNDE0MDYyLTMuNTkzNzUgOC04IDhoLTMyMGMtNC40MDYyNSAwLTgtMy41ODU5MzgtOC04di0zMjBjMC00LjQwNjI1IDMuNTkzNzUtOCA4LThoMzIwYzQuNDA2MjUgMCA4IDMuNTkzNzUgOCA4em0wIDAiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDdhZmYiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD48cGF0aCBkPSJtMjE2IDY0aC0xMTJjLTQuNDE0MDYyIDAtOCAzLjU4NTkzOC04IDh2MjI0YzAgNC40MjU3ODEgMy41ODU5MzggOCA4IDhoMTEyYzMwLjg3ODkwNiAwIDU2LTI1LjEyODkwNiA1Ni01NnYtMTZjMC0yMC4zODI4MTItMTAuOTg0Mzc1LTM4LjE5OTIxOS0yNy4zMDQ2ODgtNDggMTYuMzIwMzEzLTkuNzkyOTY5IDI3LjMwNDY4OC0yNy42MTcxODggMjcuMzA0Njg4LTQ4di0xNmMwLTMwLjg3ODkwNi0yNS4xMjEwOTQtNTYtNTYtNTZ6bTQwIDE2OHYxNmMwIDIyLjA1NDY4OC0xNy45NDUzMTIgNDAtNDAgNDBoLTEwNHYtOTZoMTA0YzIyLjA1NDY4OCAwIDQwIDE3Ljk0NTMxMiA0MCA0MHptMC05NmMwIDIyLjA1NDY4OC0xNy45NDUzMTIgNDAtNDAgNDBoLTEwNHYtOTZoMTA0YzIyLjA1NDY4OCAwIDQwIDE3Ljk0NTMxMiA0MCA0MHptMCAwIiBmaWxsPSIjZmZmZmZmIiBkYXRhLW9yaWdpbmFsPSIjMDA3YWZmIiBzdHlsZT0iIiBjbGFzcz0iIj48L3BhdGg+PC9nPjwvZz48L3N2Zz4=" />
+                <small>
+                    <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,</p>
+                </small>
+
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+
+        <div class="row">
+            <div class="col-md-4 text-center">
+                <img width="60px" height="60px"
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8cG9seWdvbiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSIiIHBvaW50cz0iMzIsMCA3Mi44LDQ2MC44IDI1Niw1MTIgNDM5LjEzNiw0NjAuODMyIDQ4MCwwICIgZmlsbD0iI2ZmMzMzMyIgZGF0YS1vcmlnaW5hbD0iIzIxOTZmMyIgY2xhc3M9IiI+PC9wb2x5Z29uPgo8cG9seWdvbiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSIiIHBvaW50cz0iMzkyLjc2OCwxNTAuNjg4IDM4Ny42MTYsMjA4LjU3NiAzNzIuMDY0LDM4Mi4xMTIgMjU2LDQxNC4yMDggMjU1LjkwNCw0MTQuMjQgICAxMzkuOTA0LDM4Mi4xMTIgMTMxLjgwOCwyOTEuMzYgMTg4LjY0LDI5MS4zNiAxOTIuODY0LDMzOC40MzIgMjU1LjkzNiwzNTUuNDU2IDI1NS45NjgsMzU1LjQyNCAzMTkuMTM2LDMzOC40IDMyNy43NDQsMjU5Ljk2OCAgIDEyOS4wODgsMjYwLjUxMiAxMjMuNDU2LDIwNi44OCAzMzIuNTEyLDIwNC40MTYgMzM2LjczNiwxNDcuMDA4IDExNy44NTYsMTQ3LjYxNiAxMTQuMTc2LDk0LjIwOCAyNTYsOTQuMjA4IDM5Ny44MjQsOTQuMjA4ICIgZmlsbD0iI2ZhZmFmYSIgZGF0YS1vcmlnaW5hbD0iI2ZhZmFmYSIgY2xhc3M9IiI+PC9wb2x5Z29uPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8L2c+PC9zdmc+" />>
+
+                <small>
+                    <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,</p>
+                </small>
+
+
+            </div>
+            <div class="col-md-4 text-center">
+                <img width="60px" height="60px"
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIuMDAxMDMiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPjxwYXRoIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgZD0ibTMyMy4zODI4MTIgNDQuMDgyMDMxYzAtMjQuMzA0Njg3LTE5Ljc3NzM0My00NC4wODIwMzEtNDQuMDgyMDMxLTQ0LjA4MjAzMWgtNTEuNTMxMjVjLTI0LjMxNjQwNiAwLTQ0LjA5Mzc1IDE5Ljc3NzM0NC00NC4wOTM3NSA0NC4wODIwMzF2ODIuMzU5Mzc1aDU4LjUzNTE1N2M4LjM5NDUzMSAwIDE1LjE4NzUgNi44MDQ2ODggMTUuMTg3NSAxNS4xODc1IDAgOC4zODY3MTktNi43OTI5NjkgMTUuMTkxNDA2LTE1LjE4NzUgMTUuMTkxNDA2aC0xOTguNTE1NjI2Yy0yNC4wODk4NDMgMC00My42OTUzMTIgMTkuNjA1NDY5LTQzLjY5NTMxMiA0My42OTUzMTN2NTIuMzE2NDA2YzAgMjQuMDg5ODQ0IDE5LjYwNTQ2OSA0My42OTUzMTMgNDMuNjk1MzEyIDQzLjY5NTMxM2gxMDkuNjAxNTYzdi00NS42NTIzNDRjMC04LjM4MjgxMiA2LjgwNDY4Ny0xNS4xODc1IDE1LjE5MTQwNi0xNS4xODc1aDE1NC44OTQ1MzF6bS05OC45MDYyNSA1Ny43ODkwNjNjLTkuODAwNzgxIDAtMTcuNzQyMTg3LTcuOTM3NS0xNy43NDIxODctMTcuNzMwNDY5IDAtOS44MDA3ODEgNy45NDE0MDYtMTcuNzQyMTg3IDE3Ljc0MjE4Ny0xNy43NDIxODcgOS43OTI5NjkgMCAxNy43MzA0NjkgNy45NDE0MDYgMTcuNzMwNDY5IDE3Ljc0MjE4NyAwIDkuNzkyOTY5LTcuOTM3NSAxNy43MzA0NjktMTcuNzMwNDY5IDE3LjczMDQ2OXptMCAwIiBmaWxsPSIjZmQyODI4IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIj48L3BhdGg+PHBhdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkPSJtNDYwLjYwOTM3NSAyMDYuMjg5MDYyaC0xMDYuODQ3NjU2djQ0LjU4NTkzOGMwIDguMzg2NzE5LTYuODA0Njg4IDE1LjE5MTQwNi0xNS4xODc1IDE1LjE5MTQwNi02LjQ2ODc1IDAtMTQ4LjQ2MDkzOCAwLTE1NC44OTg0MzggMHYyMDEuODU1NDY5YzAgMjQuMzAwNzgxIDE5Ljc3NzM0NCA0NC4wNzgxMjUgNDQuMDgyMDMxIDQ0LjA3ODEyNWg1MS41NDI5NjljMjQuMzA0Njg4IDAgNDQuMDgyMDMxLTE5Ljc3NzM0NCA0NC4wODIwMzEtNDQuMDc4MTI1di04Mi4zNTkzNzVoLTU2LjkwMjM0M2MtOC4zOTQ1MzEgMC0xNS4xOTE0MDctNi44MDg1OTQtMTUuMTkxNDA3LTE1LjE5MTQwNiAwLTguMzk0NTMyIDYuNzk2ODc2LTE1LjE5MTQwNiAxNS4xOTE0MDctMTUuMTkxNDA2aDE5NC4xMjg5MDZjMjQuMDg5ODQ0IDAgNDMuNjk1MzEzLTE5LjYwNTQ2OSA0My42OTUzMTMtNDMuNjk1MzEzdi02MS41MDc4MTNjMC0yNC4wOTM3NS0xOS42MDU0NjktNDMuNjg3NS00My42OTUzMTMtNDMuNjg3NXptLTE3NS4zNTE1NjMgMjA1LjgwMDc4MmM5Ljc5Mjk2OSAwIDE3Ljc0MjE4OCA3Ljk0MTQwNiAxNy43NDIxODggMTcuNzQyMTg3IDAgOS43OTI5NjktNy45NDkyMTkgMTcuNzMwNDY5LTE3Ljc0MjE4OCAxNy43MzA0NjktOS43OTI5NjggMC0xNy43NDIxODctNy45Mzc1LTE3Ljc0MjE4Ny0xNy43MzA0NjkgMC05LjgwMDc4MSA3Ljk0OTIxOS0xNy43NDIxODcgMTcuNzQyMTg3LTE3Ljc0MjE4N3ptMCAwIiBmaWxsPSIjZmQyODI4IiBkYXRhLW9yaWdpbmFsPSIjMDAwMDAwIiBzdHlsZT0iIj48L3BhdGg+PC9nPjwvc3ZnPg==" />
+
+                <small>
+                    <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,</p>
+                </small>
+
+            </div>
+            <div class="col-md-4 text-center">
+                <img width="60px" height="60px"
+                    src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiIGNsYXNzPSIiPjxnPgo8cGF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHN0eWxlPSIiIGQ9Ik01MTIsMjU2YzAsMTUuNDg1LTEuMzc5LDMwLjY0Ny00LjAxMiw0NS4zNjlDNDg2LjU3OCw0MjEuMTE1LDM4MS45LDUxMiwyNTYsNTEyICBjLTk0Ljg1NiwwLTE3Ny42NjQtNTEuNTg3LTIyMS44ODQtMTI4LjI0Yy0xMC43OTQtMTguNjkzLTE5LjI3OC0zOC44Ny0yNS4wODgtNjAuMTU1QzMuMTM1LDMwMi4wNywwLDI3OS4zOTUsMCwyNTYgIEMwLDExNC42MTUsMTE0LjYxNSwwLDI1NiwwYzExNi42OTQsMCwyMTUuMTQ0LDc4LjA3NSwyNDUuOTc5LDE4NC44NDJDNTA4LjUsMjA3LjQzMyw1MTIsMjMxLjMwOSw1MTIsMjU2eiIgZmlsbD0iI2YxMjIyMiIgZGF0YS1vcmlnaW5hbD0iIzhmOWVkMSI+PC9wYXRoPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPHBhdGggc3R5bGU9IiIgZD0iTTEzMC4xNzMsMTc4LjIzOUgzNS44OTJMOS4wMjgsMzIzLjYwNWM1LjgxLDIxLjI4NSwxNC4yOTQsNDEuNDYyLDI1LjA4OCw2MC4xNTVoOC43NDYgICBsMTAuNDA3LTU2LjI5OWg1MS44MDZjNjMuMDgsMCw4MC4wMzktNTYuNjMzLDg0LjEwNC04NC40NDlDMTkzLjI1NCwyMTUuMjA3LDE3Mi45MSwxNzguMjM5LDEzMC4xNzMsMTc4LjIzOXogTTE0My44NTEsMjQ3LjcwMyAgIGMtMi4zMDksMTUuNzY4LTEzLjk2LDQ3Ljg3Ny00OS43MTYsNDcuODc3SDU5LjE2MmwxNS42MzItODQuNjA1aDM1LjZDMTQ1LjA5NSwyMTAuOTc1LDE0Ni4xNiwyMzEuOTM2LDE0My44NTEsMjQ3LjcwM3oiIGZpbGw9IiNmMmYyZjIiIGRhdGEtb3JpZ2luYWw9IiNmMmYyZjIiIGNsYXNzPSIiPjwvcGF0aD4KCTxwYXRoIHN0eWxlPSIiIGQ9Ik01MDEuOTc5LDE4NC44NDJjLTguMDE0LTQuMTM4LTE3LjU2NS02LjYwNC0yOC41OTktNi42MDRoLTk0LjI4MUwzNDEuMTE3LDM4My43Nmg0NC45NTEgICBsMTAuNDA3LTU2LjI5OWg1MS44MDZjMjguMDU2LDAsNDYuOTg5LTExLjIwMSw1OS43MDUtMjYuMDkxQzUxMC42MjEsMjg2LjY0Nyw1MTIsMjcxLjQ4NSw1MTIsMjU2ICAgQzUxMiwyMzEuMzA5LDUwOC41LDIwNy40MzMsNTAxLjk3OSwxODQuODQyeiBNNDg3LjA1OCwyNDcuNzAzYy0yLjMwOSwxNS43NjgtMTMuOTYsNDcuODc3LTQ5LjcyNyw0Ny44NzdoLTM0Ljk2MmwxNS42MzItODQuNjA1ICAgaDM1LjZDNDg4LjMwMiwyMTAuOTc1LDQ4OS4zNjcsMjMxLjkzNiw0ODcuMDU4LDI0Ny43MDN6IiBmaWxsPSIjZjJmMmYyIiBkYXRhLW9yaWdpbmFsPSIjZjJmMmYyIiBjbGFzcz0iIj48L3BhdGg+Cgk8cGF0aCBzdHlsZT0iIiBkPSJNMzA5LjIzOCwxNzguOTE5Yy0xOC4yOTUsMC00Mi43MDQsMC01NC41OTcsMGwxMC4yNDgtNTUuNDUxaC00NC43NjZMMTgyLjE0LDMyOC45ODRoNDQuNzY2ICAgbDIxLjg0My0xMTguMTg2YzguMDcsMCwxOC43OSwwLDI4LjYxLDBjMTguOTkxLDAsMzEuODc5LDQuMDcsMjkuMTY1LDIxLjcwNWMtMi43MTMsMTcuNjM1LTE4LjMxMyw5NS42MzYtMTguMzEzLDk1LjYzNmg0NS40NDQgICBjMCwwLDE3LjYzNS04Ni44MTgsMjAuMzQ4LTExMS4yMzdDMzU2LjcxNywxOTIuNDg0LDMzNC4zMzQsMTc4LjkxOSwzMDkuMjM4LDE3OC45MTl6IiBmaWxsPSIjZjJmMmYyIiBkYXRhLW9yaWdpbmFsPSIjZjJmMmYyIiBjbGFzcz0iIj48L3BhdGg+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPC9nPjwvc3ZnPg==" />
+
+                <small>
+                    <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                        Lorem Ipsum has been the
+                        industry's standard dummy text ever since the 1500s,</p>
+                </small>
+
+            </div>
+        </div>
+    </div>
+    <!-- SKILLS END -->
+
+    <div class="container">
+        <h1 class="text-center mt-5 animate__animated animate__heartBeat"> <b>Heading</b></h1>
+        <p class="text-center">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum
+            has been the
+            industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and
+            scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into
+            electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of
+            Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like
+            Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+    <div class="bg-danger">
+        <div class="container ">
+            <h1 class="text-center mt-5 animate__animated animate__bounce "> <b>Contact</b></h1>
+            <h4 class="text-center mt-4 text-white"> <b>Let's create your next experience together</b></h4>
+            <h4 class="text-center mt-2 text-white"><a href="" style="color: white ;text-decoration: underline;">
+                    hello@safdarkhan.com </a></h4>
+
+        </div>
+        <div class="container ">
+            <div class="row">
+                <div class="  mx-auto size">
+                    <a href=""><img
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDI0IDI0IiBzdHlsZT0iZW5hYmxlLWJhY2tncm91bmQ6bmV3IDAgMCA1MTIgNTEyIiB4bWw6c3BhY2U9InByZXNlcnZlIj48Zz48cGF0aCB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIGQ9Im0xMiAuNWMtNi42MyAwLTEyIDUuMjgtMTIgMTEuNzkyIDAgNS4yMTEgMy40MzggOS42MyA4LjIwNSAxMS4xODguNi4xMTEuODItLjI1NC44Mi0uNTY3IDAtLjI4LS4wMS0xLjAyMi0uMDE1LTIuMDA1LTMuMzM4LjcxMS00LjA0Mi0xLjU4Mi00LjA0Mi0xLjU4Mi0uNTQ2LTEuMzYxLTEuMzM1LTEuNzI1LTEuMzM1LTEuNzI1LTEuMDg3LS43MzEuMDg0LS43MTYuMDg0LS43MTYgMS4yMDUuMDgyIDEuODM4IDEuMjE1IDEuODM4IDEuMjE1IDEuMDcgMS44MDMgMi44MDkgMS4yODIgMy40OTUuOTgxLjEwOC0uNzYzLjQxNy0xLjI4Mi43Ni0xLjU3Ny0yLjY2NS0uMjk1LTUuNDY2LTEuMzA5LTUuNDY2LTUuODI3IDAtMS4yODcuNDY1LTIuMzM5IDEuMjM1LTMuMTY0LS4xMzUtLjI5OC0uNTQtMS40OTcuMTA1LTMuMTIxIDAgMCAxLjAwNS0uMzE2IDMuMyAxLjIwOS45Ni0uMjYyIDEuOTgtLjM5MiAzLS4zOTggMS4wMi4wMDYgMi4wNC4xMzYgMyAuMzk4IDIuMjgtMS41MjUgMy4yODUtMS4yMDkgMy4yODUtMS4yMDkuNjQ1IDEuNjI0LjI0IDIuODIzLjEyIDMuMTIxLjc2NS44MjUgMS4yMyAxLjg3NyAxLjIzIDMuMTY0IDAgNC41My0yLjgwNSA1LjUyNy01LjQ3NSA1LjgxNy40Mi4zNTQuODEgMS4wNzcuODEgMi4xODIgMCAxLjU3OC0uMDE1IDIuODQ2LS4wMTUgMy4yMjkgMCAuMzA5LjIxLjY3OC44MjUuNTYgNC44MDEtMS41NDggOC4yMzYtNS45NyA4LjIzNi0xMS4xNzMgMC02LjUxMi01LjM3My0xMS43OTItMTItMTEuNzkyeiIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzIxMjEyMSIgc3R5bGU9IiI+PC9wYXRoPjwvZz48L3N2Zz4=" /></a>
+                    <a href=""><img
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMiA1MTIiIHN0eWxlPSJlbmFibGUtYmFja2dyb3VuZDpuZXcgMCAwIDUxMiA1MTIiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxnPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgoJPGc+CgkJPHBhdGggZD0iTTUxMiw5Ny4yNDhjLTE5LjA0LDguMzUyLTM5LjMyOCwxMy44ODgtNjAuNDgsMTYuNTc2YzIxLjc2LTEyLjk5MiwzOC4zNjgtMzMuNDA4LDQ2LjE3Ni01OC4wMTYgICAgYy0yMC4yODgsMTIuMDk2LTQyLjY4OCwyMC42NC02Ni41NiwyNS40MDhDNDExLjg3Miw2MC43MDQsMzg0LjQxNiw0OCwzNTQuNDY0LDQ4Yy01OC4xMTIsMC0xMDQuODk2LDQ3LjE2OC0xMDQuODk2LDEwNC45OTIgICAgYzAsOC4zMiwwLjcwNCwxNi4zMiwyLjQzMiwyMy45MzZjLTg3LjI2NC00LjI1Ni0xNjQuNDgtNDYuMDgtMjE2LjM1Mi0xMDkuNzkyYy05LjA1NiwxNS43MTItMTQuMzY4LDMzLjY5Ni0xNC4zNjgsNTMuMDU2ICAgIGMwLDM2LjM1MiwxOC43Miw2OC41NzYsNDYuNjI0LDg3LjIzMmMtMTYuODY0LTAuMzItMzMuNDA4LTUuMjE2LTQ3LjQyNC0xMi45MjhjMCwwLjMyLDAsMC43MzYsMCwxLjE1MiAgICBjMCw1MS4wMDgsMzYuMzg0LDkzLjM3Niw4NC4wOTYsMTAzLjEzNmMtOC41NDQsMi4zMzYtMTcuODU2LDMuNDU2LTI3LjUyLDMuNDU2Yy02LjcyLDAtMTMuNTA0LTAuMzg0LTE5Ljg3Mi0xLjc5MiAgICBjMTMuNiw0MS41NjgsNTIuMTkyLDcyLjEyOCw5OC4wOCw3My4xMmMtMzUuNzEyLDI3LjkzNi04MS4wNTYsNDQuNzY4LTEzMC4xNDQsNDQuNzY4Yy04LjYwOCwwLTE2Ljg2NC0wLjM4NC0yNS4xMi0xLjQ0ICAgIEM0Ni40OTYsNDQ2Ljg4LDEwMS42LDQ2NCwxNjEuMDI0LDQ2NGMxOTMuMTUyLDAsMjk4Ljc1Mi0xNjAsMjk4Ljc1Mi0yOTguNjg4YzAtNC42NC0wLjE2LTkuMTItMC4zODQtMTMuNTY4ICAgIEM0ODAuMjI0LDEzNi45Niw0OTcuNzI4LDExOC40OTYsNTEyLDk3LjI0OHoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiPjwvcGF0aD4KCTwvZz4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8L2c+PC9zdmc+" /></a>
+                    <a href=""><img
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDUxMi40MTggNTEyLjQxOCIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+PHBhdGggeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiBkPSJtNDM3LjMzNSA3NS4wODJjLTEwMC4xLTEwMC4xMDItMjYyLjEzNi0xMDAuMTE4LTM2Mi4yNTIgMC0xMDAuMTAzIDEwMC4xMDItMTAwLjExOCAyNjIuMTM2IDAgMzYyLjI1MyAxMDAuMSAxMDAuMTAyIDI2Mi4xMzYgMTAwLjExNyAzNjIuMjUyIDAgMTAwLjEwMy0xMDAuMTAyIDEwMC4xMTctMjYyLjEzNiAwLTM2Mi4yNTN6bS0xMC43MDYgMzI1LjczOWMtMTEuOTY4LTEwLjcwMi0yNC43Ny0yMC4xNzMtMzguMjY0LTI4LjMzNSA4LjkxOS0zMC44MDkgMTQuMjAzLTY0LjcxMiAxNS40NTItOTkuOTU0aDc1LjMwOWMtMy40MDUgNDcuNTAzLTIxLjY1NyA5Mi4wNjQtNTIuNDk3IDEyOC4yODl6bS0zOTMuMzM4LTEyOC4yODloNzUuMzA5YzEuMjQ5IDM1LjI0MiA2LjUzMyA2OS4xNDUgMTUuNDUyIDk5Ljk1NC0xMy40OTQgOC4xNjItMjYuMjk2IDE3LjYzMy0zOC4yNjQgMjguMzM1LTMwLjg0LTM2LjIyNS00OS4wOTEtODAuNzg2LTUyLjQ5Ny0xMjguMjg5em01Mi40OTgtMTYwLjkzNmMxMS45NjggMTAuNzAyIDI0Ljc3IDIwLjE3MyAzOC4yNjQgMjguMzM1LTguOTE5IDMwLjgwOS0xNC4yMDMgNjQuNzEyLTE1LjQ1MiA5OS45NTRoLTc1LjMxYzMuNDA2LTQ3LjUwMiAyMS42NTctOTIuMDYzIDUyLjQ5OC0xMjguMjg5em0xNTQuMDk3IDMxLjcwOWMtMjYuNjIyLTEuOTA0LTUyLjI5MS04LjQ2MS03Ni4wODgtMTkuMjc4IDEzLjg0LTM1LjYzOSAzOS4zNTQtNzguMzg0IDc2LjA4OC04OC45Nzd6bTAgMzIuNzA4djYzLjg3M2gtOTguNjI1YzEuMTMtMjkuODEyIDUuMzU0LTU4LjQzOSAxMi4zNzktODQuNjMyIDI3LjA0MyAxMS44MjIgNTYuMTI3IDE4Ljg4MiA4Ni4yNDYgMjAuNzU5em0wIDk2LjUxOXY2My44NzNjLTMwLjExOSAxLjg3Ny01OS4yMDMgOC45MzctODYuMjQ2IDIwLjc1OS03LjAyNS0yNi4xOTMtMTEuMjQ5LTU0LjgyLTEyLjM3OS04NC42MzJ6bTAgOTYuNTgxdjEwOC4yNTRjLTM2LjczMi0xMC41OTMtNjIuMjQ2LTUzLjMzMy03Ni4wODgtODguOTc2IDIzLjc5Ny0xMC44MTcgNDkuNDY2LTE3LjM3NCA3Ni4wODgtMTkuMjc4em0zMi42NDYgMGMyNi42MjIgMS45MDQgNTIuMjkxIDguNDYxIDc2LjA4OCAxOS4yNzgtMTMuODQxIDM1LjY0LTM5LjM1NCA3OC4zODMtNzYuMDg4IDg4Ljk3NnptMC0zMi43MDh2LTYzLjg3M2g5OC42MjVjLTEuMTMgMjkuODEyLTUuMzU0IDU4LjQzOS0xMi4zNzkgODQuNjMyLTI3LjA0My0xMS44MjItNTYuMTI3LTE4Ljg4Mi04Ni4yNDYtMjAuNzU5em0wLTk2LjUxOXYtNjMuODczYzMwLjExOS0xLjg3NyA1OS4yMDMtOC45MzcgODYuMjQ2LTIwLjc1OSA3LjAyNSAyNi4xOTMgMTEuMjQ5IDU0LjgyIDEyLjM3OSA4NC42MzJ6bTAtOTYuNTgxdi0xMDguMjU0YzM2LjczNCAxMC41OTMgNjIuMjQ4IDUzLjMzOCA3Ni4wODggODguOTc3LTIzLjc5NyAxMC44MTYtNDkuNDY2IDE3LjM3My03Ni4wODggMTkuMjc3em03My4zMi05MS45NTdjMjAuODk1IDkuMTUgNDAuMzg5IDIxLjU1NyA1Ny44NjQgMzYuOTUxLTguMzE4IDcuMzM0LTE3LjA5NSAxMy45ODQtMjYuMjYgMTkuOTMxLTguMTM5LTIwLjE1Mi0xOC41MzYtMzkuNzM2LTMxLjYwNC01Ni44ODJ6bS0yMTAuODkxIDU2Ljg4MmMtOS4xNjUtNS45NDctMTcuOTQxLTEyLjU5Ny0yNi4yNi0xOS45MzEgMTcuNDc1LTE1LjM5NCAzNi45NjktMjcuODAxIDU3Ljg2NC0zNi45NTEtMTMuMDY4IDE3LjE0OC0yMy40NjUgMzYuNzMyLTMxLjYwNCA1Ni44ODJ6bS4wMDEgMjk1Ljk1OGM4LjEzOCAyMC4xNTEgMTguNTM3IDM5LjczNiAzMS42MDQgNTYuODgyLTIwLjg5NS05LjE1LTQwLjM4OS0yMS41NTctNTcuODY0LTM2Ljk1MSA4LjMxOC03LjMzNCAxNy4wOTUtMTMuOTg0IDI2LjI2LTE5LjkzMXptMjQyLjQ5NCAwYzkuMTY1IDUuOTQ3IDE3Ljk0MiAxMi41OTcgMjYuMjYgMTkuOTMtMTcuNDc1IDE1LjM5NC0zNi45NjkgMjcuODAxLTU3Ljg2NCAzNi45NTEgMTMuMDY3LTE3LjE0NCAyMy40NjUtMzYuNzI5IDMxLjYwNC01Ni44ODF6bTI2LjM2Mi0xNjQuMzAyYy0xLjI0OS0zNS4yNDItNi41MzMtNjkuMTQ2LTE1LjQ1Mi05OS45NTQgMTMuNDk0LTguMTYyIDI2LjI5NS0xNy42MzMgMzguMjY0LTI4LjMzNSAzMC44NCAzNi4yMjUgNDkuMDkxIDgwLjc4NiA1Mi40OTcgMTI4LjI4OXoiIGZpbGw9IiNmZmZmZmYiIGRhdGEtb3JpZ2luYWw9IiMwMDAwMDAiIHN0eWxlPSIiIGNsYXNzPSIiPjwvcGF0aD48L2c+PC9zdmc+" /></a>
+                    <a href=""><img
+                            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiIHhtbG5zOnN2Z2pzPSJodHRwOi8vc3ZnanMuY29tL3N2Z2pzIiB3aWR0aD0iNTEyIiBoZWlnaHQ9IjUxMiIgeD0iMCIgeT0iMCIgdmlld0JveD0iMCAwIDExMi4xOTYgMTEyLjE5NiIgc3R5bGU9ImVuYWJsZS1iYWNrZ3JvdW5kOm5ldyAwIDAgNTEyIDUxMiIgeG1sOnNwYWNlPSJwcmVzZXJ2ZSIgY2xhc3M9IiI+PGc+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+Cgk8Y2lyY2xlIHN0eWxlPSIiIGN4PSI1Ni4wOTgiIGN5PSI1Ni4wOTgiIHI9IjU2LjA5OCIgZmlsbD0iI2ZmZmZmZiIgZGF0YS1vcmlnaW5hbD0iIzNiNTk5OCIgY2xhc3M9IiI+PC9jaXJjbGU+Cgk8cGF0aCBzdHlsZT0iIiBkPSJNNzAuMjAxLDU4LjI5NGgtMTAuMDF2MzYuNjcySDQ1LjAyNVY1OC4yOTRoLTcuMjEzVjQ1LjQwNmg3LjIxM3YtOC4zNCAgIGMwLTUuOTY0LDIuODMzLTE1LjMwMywxNS4zMDEtMTUuMzAzTDcxLjU2LDIxLjgxdjEyLjUxaC04LjE1MWMtMS4zMzcsMC0zLjIxNywwLjY2OC0zLjIxNywzLjUxM3Y3LjU4NWgxMS4zMzRMNzAuMjAxLDU4LjI5NHoiIGZpbGw9IiNlNmU2ZTYiIGRhdGEtb3JpZ2luYWw9IiNmZmZmZmYiIGNsYXNzPSIiPjwvcGF0aD4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciPgo8L2c+CjxnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+CjwvZz4KPGcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPC9nPgo8L2c+PC9zdmc+" /></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script> -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script> -->
+</body>
+
+</html>
